@@ -11,5 +11,5 @@ Muliclass classification for Arabic dialect
     `streamlit run app.py`
 
 ### This image show the predicted dialect by given text.
-![1](deployment testing.png)
+![1](5- Additional file/deployment testing.png)
 
