@@ -15,5 +15,5 @@ If you want deploy the modeling localy you can download it and run it by the fol
     `streamlit run app.py`
 
 ### This image show the predicted dialect by given text.
-![1](5- Additional file/deployment testing.png)
+![1](4- Additional file/deployment testing.png)
 
