@@ -14,6 +14,12 @@ If you want deploy the modeling localy you can download it and run it by the fol
   * a. Install the requirment text file in your environment which is in additional folder.
   * b. Run this line of code to open a local host with pretty page that takes an input Arabic text and predict which dialect belong.
     `streamlit run app.py`
+    
+### Results:
+* At the beginning the data it’s too big to train `Deep learning model` on my machine and it’s will take a lot of time, so i made downsampling for make each  label have the minimum number of labeled data, which is = `9264 row text`, and run the `MARABERT` for `all labels which is 166428 row text` and get the `F1-macro avg = 0.56` and `it takes 52 min`.
+
+* The second approach is `Machine Learning model` on `the whole data`, i trained some ML models like `MultinomialNB, LinearSVC, Logistics Regression with multi-label parameter` and the highest model is `LinearSVC with F1-macro avg = 0.47` and it `takes 1 min!`.
+    
 
 ### This image show the predicted dialect by given text.
 ![1](1.png)
